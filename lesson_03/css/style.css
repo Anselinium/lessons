@@ -1,0 +1,67 @@
+/* @import url("reset.css"); */
+
+
+/* Section-1 */
+
+#section-1 h2 {
+	color: red;
+}
+
+#section-1 > p {
+	color: blue;
+}
+
+/* Section-1 */
+
+#section-2 p {
+	color: coral;
+}
+
+#section-2 > span {
+	color: green;
+}
+
+#section-2 > ol {
+	color: darkmagenta;
+}
+
+/* Показати спосіб як дійти до стилізації конкретного пунтку 
+коли наприклад немає класів чи id */
+
+#section-2 h2 + p + span + h3 + ol + h3 { 
+	color: darkblue;
+}
+
+#section-2 h2 + p + span + h3 + ol + h3 + ol + h3 + ol + h3 { 
+	color: chartreuse;
+}
+
+/* Section-3 */
+
+#section-3 p {
+	color: saddlebrown;
+}
+
+#section-3 span {
+	color: darkcyan;
+}
+
+#section-3 h2 + p + span + h3 + ul li { 
+	color: tomato;
+}
+
+/* Section-4 */
+
+#section-4 > h3 {
+	color: violet;
+}
+
+/* Section-5 */
+
+#section-5 h2 + p + span + h3 + ol ~ h3 { 
+	color: aqua;
+}
+
+#section-5 ~ p {
+	color: red;
+}
