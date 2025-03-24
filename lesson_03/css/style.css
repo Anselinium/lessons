@@ -3,6 +3,10 @@
 
 /* Section-1 */
 
+div span {
+	color: yellowgreen;
+}
+
 #section-1 h2 {
 	color: red;
 }
@@ -17,16 +21,12 @@
 	color: coral;
 }
 
-#section-2 > span {
-	color: green;
-}
-
 #section-2 > ol {
 	color: darkmagenta;
 }
 
 /* Показати спосіб як дійти до стилізації конкретного пунтку 
-коли наприклад немає класів чи id */
+коли, наприклад, немає класів чи id */
 
 #section-2 h2 + p + span + h3 + ol + h3 { 
 	color: darkblue;
@@ -43,7 +43,7 @@
 }
 
 #section-3 span {
-	color: darkcyan;
+	color: rgb(100, 139, 0);
 }
 
 #section-3 h2 + p + span + h3 + ul li { 
