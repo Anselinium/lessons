@@ -1,0 +1,270 @@
+/* @import url("reset.css"); */
+
+@import url("fonts.css");
+
+ h1 {
+	font-family: "Pattaya", sans-serif;
+	text-transform: capitalize;
+	text-align: center;
+	font-size: 60px;
+	font-weight: 400;
+ }
+ 
+ .header h2 {
+	font-family: "Merriweather", serif;
+	font-style: regular;
+	font-weight: 400;
+	font-size: 36px;
+	text-align: center;
+ }
+
+ .list a {
+	font-family: "Playfair Display SC", serif;
+	font-style: bold;
+	text-decoration-style: dotted;
+	color: rgb(68, 120, 0);
+	font-size: 24px;
+ }
+
+ /* --Джерела-- */
+ #chapter_2 a,
+ #chapter_3 a,
+ #chapter_41 a,
+ #chapter_42 a,
+ #chapter_43 a,
+ #chapter_44 a,
+ #chapter_45 a,
+ #chapter_46 a,
+ #chapter_47 a {
+	font-family: "Lora", serif;
+	font-weight: 700;
+	font-size: 12px;
+	text-align: center;
+	color: black;
+ }
+
+
+ /* --Вступ-- */
+ #chapter_1 h3 {
+	font-size: 40px;
+	font-family: "Pattaya", sans-serif;
+	color: rgb(37, 155, 48);
+	text-align: center;
+	/* text-decoration: underline;
+	text-decoration-color: #0a5420; */
+	letter-spacing: 2px;
+	text-transform: uppercase;
+ }
+
+ #chapter_1 p {
+	font-family: "Lora", serif;
+	font-size: 22px;
+	text-align: center;
+ }
+
+ /* --Історичний розвиток-- */
+ #chapter_2 h3 {
+	text-align: justify;
+	font-family: "Merriweather", serif;
+	font-style: italic;
+	font-size: 26px;
+	text-decoration: underline;
+	text-decoration-style: wavy;
+	text-decoration-color: brown;
+	color: orangered;
+ }
+
+ #chapter_2 p {
+	font-size: 22px;
+	width: 1000px;
+	text-align: justify;
+
+ }
+
+ /* --Культурна спадщина-- */
+ #chapter_3 h3 {
+	font-family: "Pattaya", sans-serif;
+	font-weight: 300;
+	font-size: 26px;
+	text-decoration: underline;
+	text-decoration-style: dashed;
+	text-decoration-color: rgb(14, 89, 64);
+	color: #2ca9c2;
+ }
+
+ #chapter_3 p {
+	font-family: "Pattaya", sans-serif;
+	font-size: 22px;
+	width: 1000px;
+	text-align: right;
+	line-height: 1.5;
+	color: rgb(40, 121, 138);
+ }
+
+ /* --Цікаві факти про Західну Україну-- */
+
+ #chapter_4 h3 {
+	font-family: "SpectralSC", sans-serif;
+	font-weight: 700;
+	font-size: 32px;
+	text-align: center;
+	text-decoration: overline;
+	text-decoration-style: wavy;
+	color: rgb(89, 32, 136);
+}
+
+ #chapter_4 h4{
+	font-size: 25px;
+}
+ #chapter_4 p{
+	font-size: 20px;
+	font-weight: 700;
+}
+
+ /* --Географічний центр Європи-- */
+ #chapter_41 h4 {
+	font-family: "Playfair Display SC", serif;
+	text-decoration: underline;
+	text-decoration-style: dotted;
+	text-decoration-color: #414141;
+	color:  #444340;
+ }
+ #chapter_41 p {
+	width: 1100px;
+	font-family: "Playfair Display SC", serif;
+	color: #666561;
+	word-spacing: 5px;
+ }
+ 
+ /* --Найдовший музичний інструмент-- */
+ #chapter_42 h4 {
+	font-family: "Comfortaa", sans-serif;
+	text-transform: capitalize;
+	color: #4b0e0e;
+}
+ #chapter_42 p {
+	font-family: "Comfortaa", sans-serif;
+	width: 1100px;
+	line-height: 2;
+	color: #3e3636;
+}
+
+/* --Найстаріший дуб України-- */
+#chapter_43 h4 {
+	font-family: "Merriweather", serif;
+	text-decoration: underline;
+	text-decoration-style: dotted;
+	text-decoration-color: #038012;
+	color: #084411;
+}
+#chapter_43 p {
+	text-align: right;
+	width: 990px;
+	font-family: "Merriweather", serif;
+	color: #55ab62;
+}
+
+
+/* --Унікальні природні явища-- */
+#chapter_44 h4 {
+	font-family: "Poppins", sans-serif;
+	color: #edad24;
+}
+#chapter_44 p {
+	font-family: "Poppins", sans-serif;
+	font-style: italic;
+	line-height: 1.5;
+	color: #fd8b21;
+}
+
+/* --Бурштин із давніми включеннями-- */
+#chapter_45 h4 {
+	font-family: "Nunito", sans-serif;
+	text-decoration: underline;
+	text-decoration-color: #81450d;
+	text-decoration-style: dotted;
+	color: #97701c;
+}
+#chapter_45 p{
+	font-family: "Nunito", sans-serif;
+	width: 1150px;
+	text-align: right;
+	line-height: 0.8;
+	letter-spacing: 2px;
+	color: #aa5e4b;
+}
+
+/* --Найглибше озеро-- */
+#chapter_46 h4{
+	font-family: "SpectralSC", serif;
+	text-decoration: underline;
+	text-decoration-color: #1f31b7;
+	text-transform: capitalize;
+	color: #3e50ee;
+}
+#chapter_46 p{
+	font-family: "SpectralSC", serif;
+	width: 1150px;
+	text-align: center;
+	color: #1f9ecd;
+	letter-spacing: 2px;
+}
+
+/* --Місто Лева-- */
+#chapter_47 h4 {
+	font-family: "Comfortaa", sans-serif;
+	text-decoration: underline;
+	text-decoration-color: #502311;
+	text-transform: uppercase;
+	letter-spacing: 4px;
+	color: #8b540d;
+}
+
+#chapter_47 p {
+	font-family: "Comfortaa", sans-serif;
+	color: #8b540d;
+}
+
+ /* --Висновок-- */
+ #chapter_5 h3 {
+	font-family: "Pattaya", sans-serif;
+	font-size: 40px;
+	font-weight: 500;
+	text-align: center;
+	text-decoration: underline;
+	color: #0cb522;
+ }
+ #chapter_5 p {
+	font-family: "Poppins", sans-serif;
+	font-weight: 400;
+	font-size: 24px;
+	text-align: center;
+ }
+
+
+ /* --Homework - Ecobazar-- */
+
+ .ecobazar h3 {
+	font-family: "Poppins", sans-serif;
+	text-align: left;
+ }
+
+ .ecobazar h4{
+	width: 871px;
+	color: #1A1A1A;
+	font-family: "Poppins", sans-serif;
+	font-size: 20px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: 150%;
+ }
+
+ .ecobazar p {
+	width: 871px;
+	color: #808080;
+	font-family: "Poppins", sans-serif;
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 150%;
+ }
