@@ -8,6 +8,8 @@
 	text-align: center;
 	font-size: 60px;
 	font-weight: 400;
+	color: green;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.8);
  }
  
  .header h2 {
@@ -22,6 +24,7 @@
 	text-decoration-style: dotted;
 	color: rgb(68, 120, 0);
 	font-size: 24px;
+	text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
  }
 
  /* --Джерела-- */
@@ -109,6 +112,7 @@
 	text-decoration: overline;
 	text-decoration-style: wavy;
 	color: rgb(89, 32, 136);
+	text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
 }
 
  #chapter_4 h4{
@@ -167,12 +171,14 @@
 #chapter_44 h4 {
 	font-family: "Poppins", sans-serif;
 	color: #edad24;
+	text-shadow: 2px 1px 2px rgba(0, 0, 0, 0.4);
 }
 #chapter_44 p {
 	font-family: "Poppins", sans-serif;
 	font-style: italic;
 	line-height: 1.5;
 	color: #fd8b21;
+	text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
 }
 
 /* --Бурштин із давніми включеннями-- */
@@ -182,6 +188,7 @@
 	text-decoration-color: #81450d;
 	text-decoration-style: dotted;
 	color: #97701c;
+	text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.4);
 }
 #chapter_45 p{
 	font-family: "Nunito", sans-serif;
@@ -199,6 +206,7 @@
 	text-decoration-color: #1f31b7;
 	text-transform: capitalize;
 	color: #3e50ee;
+	text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
 }
 #chapter_46 p{
 	font-family: "SpectralSC", serif;
@@ -216,6 +224,7 @@
 	text-transform: uppercase;
 	letter-spacing: 4px;
 	color: #8b540d;
+	text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
 }
 
 #chapter_47 p {
@@ -231,6 +240,8 @@
 	text-align: center;
 	text-decoration: underline;
 	color: #0cb522;
+	text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+	
  }
  #chapter_5 p {
 	font-family: "Poppins", sans-serif;
