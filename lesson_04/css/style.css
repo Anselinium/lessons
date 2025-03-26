@@ -12,7 +12,6 @@
  
  .header h2 {
 	font-family: "Merriweather", serif;
-	font-style: regular;
 	font-weight: 400;
 	font-size: 36px;
 	text-align: center;
@@ -20,7 +19,6 @@
 
  .list a {
 	font-family: "Playfair Display SC", serif;
-	font-style: bold;
 	text-decoration-style: dotted;
 	color: rgb(68, 120, 0);
 	font-size: 24px;
