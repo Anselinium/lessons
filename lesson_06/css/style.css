@@ -3,9 +3,8 @@
 @import url("fonts.css");
 
 
-.wrapper{
+.wrapper {
 	min-height: 100%;
-	/* overflow: hidden; */
 }
 
 /* ---header---*/
@@ -21,7 +20,7 @@
 
 .header-block li {
 	text-align: center;
-	color: white ;
+	color: white;
 	font-size: 22px;
 	line-height: 1.4;
 }
@@ -64,8 +63,9 @@
 ul {
 	margin-bottom: 20px;
 }
- 
+
 /* ---container2--- */
+
 #part2 {
 	background-color: #302C42;
 }
@@ -98,13 +98,13 @@ ul {
 	vertical-align: middle;
 }
 
-.right-text-block h1 {
+.title-about {
+	display: block;
 	color: #FFF;
-	font-family: "Montserrat", sans-serif;
+	font-family: Montserrat;
 	font-size: 36px;
 	font-weight: 700;
 	line-height: normal;
-	margin-bottom: 5px;
 }
 
 .right-text-block h2 {
@@ -113,7 +113,7 @@ ul {
 	font-size: 36px;
 	font-weight: 300;
 	line-height: normal;
-	margin-bottom: 42px; 
+	margin-bottom: 42px;
 }
 
 .right-text-block p {
@@ -121,11 +121,11 @@ ul {
 	font-family: "Montserrat", sans-serif;
 	font-size: 16px;
 	font-weight: 400;
-	line-height: 1.5;   
+	line-height: 1.5;
 	margin-bottom: 28px;
 }
 
-a.button {	
+a.button {
 	color: #343045;
 	font-family: "Montserrat", sans-serif;
 	font-size: 12px;
@@ -148,15 +148,21 @@ a.button {
 	margin: 0 auto;
 	padding-top: 40px;
 	padding-bottom: 40px;
-} 
+}
 
 .container3 .block {
 	min-height: 167px;
-	padding: 20px 30px;
+	margin: 0 auto;
+	vertical-align: middle;
+	padding: 23px 39px;
 	font-size: 0;
 	background: radial-gradient(circle, rgba(58, 52, 86, 0.95) 0%, #211E2E 100%);
-    border-radius: 90px;
-    box-shadow: 0px 4px 4px 0px rgba(192, 183, 232, 0.01);
+	border-radius: 90px;
+	box-shadow: 0px 4px 4px 0px rgba(192, 183, 232, 0.01);
+}
+
+.block .list {
+	margin: 0 auto;
 }
 
 .container3 h2 {
@@ -168,7 +174,8 @@ a.button {
 	margin-bottom: 10px;
 }
 
-.container3 p {
+.container3 a {
+	display: inline-block;
 	color: #FFF;
 	font-family: "Montserrat", sans-serif;
 	font-size: 14px;
@@ -177,32 +184,47 @@ a.button {
 }
 
 .list {
-	display: inline-block;
-	margin-bottom: 0;
+	margin: 0 auto;
 	vertical-align: middle;
 }
 
 .location-item1 {
 	display: inline-block;
-	margin-right: 42px;
+	border-right: 1px solid rgba(192, 183, 232, 0.33);
+	padding: 30px 42px 30px 70px;
+	background: url("../img/location-icon.png") center left / 70px no-repeat;
 }
 
-.location-icon {
-	padding-left: 10px;
-}
-
-.vert-line1 {
+.location-item1-content {
 	display: inline-block;
 	vertical-align: middle;
-	width: 0px;
-	height: 116.5px;
-	stroke: rgba(192, 183, 232, 0.33);
-	margin-right: 47px;
+
 }
 
 .phone-item2 {
 	display: inline-block;
-	margin-right: 66px;
+	border-right: 1px solid rgba(192, 183, 232, 0.33);
+	padding-left: 48px;
+}
+
+.phone-item2-content {
+	display: inline-block;
+	vertical-align: middle;
+	padding: 30px 66px 30px 70px;
+	background: url("../img/phone-call.png") center left / 59px no-repeat;
+}
+
+.mail-item3 {
+	display: inline-block;
+	padding-left: 48px;
+}
+
+.mail-item3-content {
+	display: inline-block;
+	background: url("../img/mail.png") center left / 65px no-repeat;
+	vertical-align: middle;
+	padding: 30px 42px 30px 70px;
+	font-size: 0;
 }
 
 .phone-text {
@@ -212,28 +234,6 @@ a.button {
 	font-size: 14px;
 	font-weight: 400;
 	line-height: normal;
-}
-
-.phone-call-icon {
-	margin-right: 29px;
-}
-
-.vert-line2 {
-	display: inline-block;
-	vertical-align: middle;
-	width: 0px;
-	height: 116.5px;
-	stroke: rgba(192, 183, 232, 0.33);
-	margin-right: 50px;
-}
-
-.mail-item3 {
-	display: inline-block;
-	font-size: 0;
-}
-
-.mail-icon {
-	margin-right: 23px;
 }
 
 /* footer */
@@ -262,4 +262,3 @@ a.upper {
 	top: 3px;
 	box-shadow: 0 2px 0px 0px rgb(48, 5, 5);
 }
-
