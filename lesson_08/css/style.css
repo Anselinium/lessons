@@ -1,0 +1,172 @@
+@import url("reset.css");
+
+@import url("fonts.css");
+
+
+.wrapper {
+	min-height: 100%;
+	font-family: "Poppins", sans-serif;
+}
+
+header {
+	text-align: center;
+	font-size: 36px;
+}
+
+/* ---------------------------- */
+
+.container1 {
+	min-height: 300px;
+	background-color: #1177e3;
+	padding: 30px 0px;
+}
+
+h1 {
+	font-size: 35px;
+	color: aliceblue;
+	text-align: center;
+	margin-bottom: 25px;
+}
+
+.list-icons  li {
+	max-width: 700px;
+	background-color: #1565C0;
+	margin: 0 auto;
+	line-height: 3;
+	margin-bottom: 15px;
+	min-height: 74px;
+	padding: 10px;
+}
+
+.img-icons {
+	padding: 15px;
+	margin-right: 10px;
+	vertical-align: middle;
+}
+
+.img-icons:hover {
+	box-shadow: 0px 0px 2px 2px #e3d8d8;
+    transition: all 0.1s;
+    position: relative;
+    top: 0;
+}
+
+.list-icons-function .descr {
+	color: #E0E0E0;
+	vertical-align: middle;
+	display: inline-block;
+}
+
+.list-icons-function li {
+	max-width: 700px;
+	background-color: #672092c7;
+	margin: 0 auto;
+	line-height: 2.5;
+	margin-bottom: 15px;
+	min-height: 56px;
+	padding: 10px;
+}
+
+/* ---------------------------- */
+
+.container2 {
+	min-width: 100%;
+	min-height: 250px;
+	background-color: green;
+}
+
+h2 {
+	font-size: 35px;
+	color: aliceblue;
+	text-align: center;
+	margin-bottom: 25px;
+	padding-top: 15px;
+}
+
+.list-design-elements li {
+	max-width: 700px;
+	background-color: #af5003;
+	margin: 0 auto;
+	line-height: 2.5;
+	margin-bottom: 15px;
+	min-height: 56px;
+	padding: 10px;
+}
+
+.commas {
+	font-size: 15px;
+	font-weight: 500;
+	color: aliceblue;
+}
+
+/* ---------------------------- */
+.container3 {
+	min-width: 100%;
+	height: auto;
+	background-color: orange;
+}
+
+h3 {
+	font-size: 35px;
+	color: aliceblue;
+	text-align: center;
+	margin-bottom: 25px;
+	padding-top: 15px;
+}
+
+.list-content-images li {
+	max-width: 968px;
+	margin: 0 auto;
+	outline: 2px solid #635050;
+	padding: 5px;
+	margin-bottom: 15px;
+	
+}
+
+.list-content-images .descr{
+	color: #1f176d;
+	vertical-align: middle;
+	display: inline-block;
+	font-size: 16px;
+	font-weight: 600;
+}
+
+.gen-logo, .man-in-glasses {
+	margin-right: 20px;
+}
+
+.man-in-glasses {
+	max-width: 357px;
+	border-radius: 96px 0px;
+}
+
+.full-frame-images {
+	text-align: center;
+}
+
+.general-foto,
+.two-peoples-behind {
+	margin-bottom: 7px;
+}
+
+/* ---------------------------- */
+
+a.to-home {
+	width: 100px;
+	height: 25px;
+	background: #986b3b;
+	font-size: 20px;
+	border-radius: 10px;
+	color: #231111;
+	text-align: center;
+	margin-bottom: 20px;
+	box-shadow: 0 5px 0px 0px black;
+	transition: all 0.1s;
+	position: relative;
+	top: 0;
+}
+
+.to-home:hover {
+	top: 3px;
+	box-shadow: 0 2px 0px 0px rgb(48, 5, 5);
+}
