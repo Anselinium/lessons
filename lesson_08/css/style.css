@@ -103,7 +103,7 @@ h2 {
 .container3 {
 	min-width: 100%;
 	height: auto;
-	background-color: orange;
+	background-color: #ff8400;
 }
 
 h3 {
@@ -136,8 +136,9 @@ h3 {
 }
 
 .man-in-glasses {
-	max-width: 357px;
-	border-radius: 96px 0px;
+	display: block;
+	border-radius: 150px 0px;
+	margin: 0 auto;
 }
 
 .full-frame-images {
@@ -145,7 +146,8 @@ h3 {
 }
 
 .general-foto,
-.two-peoples-behind {
+.two-peoples-behind,
+.man-in-glasses {
 	margin-bottom: 7px;
 }
 
