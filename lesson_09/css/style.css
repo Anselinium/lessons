@@ -1,0 +1,19 @@
+@import url("reset.css");
+
+@import url("fonts.css");
+
+
+.wrapper {
+	min-height: 100%;
+	font-family: "Poppins", sans-serif;
+}
+
+header {
+	/* text-align: center; */
+	font-size: 36px;
+}
+
+.to-home:hover {
+	top: 3px;
+	box-shadow: 0 2px 0px 0px rgb(48, 5, 5);
+}
