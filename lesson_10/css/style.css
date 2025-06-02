@@ -1,0 +1,326 @@
+@import url("reset.css");
+
+@import url("fonts.css");
+
+
+.wrapper {
+	min-height: 100%;
+	font-family: "Poppins", sans-serif;
+}
+
+header {
+	text-align: center;
+	background-color: aqua;
+	line-height: 2;
+	font-size: 36px;
+	margin-bottom: 50px;
+}
+
+.to-home:hover {
+	text-decoration: underline;
+	text-decoration-style: double;
+}
+
+/* -----Business-UP------*/
+
+.audit-risk {
+	background: url(../img/background/background.png) center / 100% 100% no-repeat;
+}
+
+.img-girls {
+	max-width: 430px;
+	max-height: 548px;
+	margin-top: -40px;
+	border-radius: 20px;
+	background: lightgray 50% / cover no-repeat, #FFF;
+	box-shadow: -25px 20px 44px 0px rgba(84, 48, 209, 0.40);
+	position: relative;
+	z-index: 1;
+}
+
+.audit-container {
+	max-width: 1595px;
+	padding-left: 183px;
+	padding-right: 183px;
+	margin: 0 auto;
+	position: relative;
+	margin-bottom: 55px;
+}
+
+.audit-container__image {
+	display: inline-block;
+	margin-right: 70px;
+}
+
+.audit-container__image::before {
+	content: "";
+	width: 65px;
+	height: 65px;
+	border: solid 5px;
+	border-radius: 50%;
+	border-color: #FFBA49;;
+	position: absolute;
+	z-index: 1;
+	top: 127px;
+	left: 55px;
+}
+
+.audit-container__image::after {
+	content: "";
+	width: 401px;
+	height: 401px;
+	border: solid 5px;
+	border-radius: 50%;
+	border-color: #FFBA49;;
+	position: absolute;
+	z-index: 0;
+	top: 172px;
+	left: 75px;
+}
+
+.audit-container::before {
+	content: "";
+	width: 213.764px;
+	height: 472.16px;
+	background:  url(../img/decoration/group-ellipse.png);
+	position: absolute;
+	top: 74%;
+	left: 5.5%;
+	z-index: 0;
+}
+
+.audit-container__description {
+	max-width: 602px;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.audit-container__title {
+	color: #FFF;
+	font-family: "CircularStd", sans-serif;
+	font-size: 36px;
+	font-weight: 700;
+	max-width: 602px;
+	margin-bottom: 13px;
+	line-height: 1.28;
+}
+
+.audit-container__text,
+.risk-container__text {
+	color: #FFF;
+	font-family: 'Roboto', sans-serif;
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 1.67;
+	margin-bottom: 39px;
+	max-width: 480px;
+}
+
+.audit-button,
+.risk-button {
+	padding: 22px 26px;
+	color: #FFF;
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+	font-size: 18px;
+	font-weight: 500;
+	width: 256px;
+	height: 64px;
+	border-radius: 60px;
+	background: #F35B09;
+}
+
+.audit-button:hover,
+.risk-button:hover {
+	background: #FFF;
+	color: #F35B09;
+}
+
+/* -----Business-DOWN------*/
+
+.risk-container {
+	max-width: 1595px;
+	padding-left: 183px;
+	padding-right: 183px;
+	margin: 0 auto;
+	font-size: 0;
+	position: relative;
+	text-align: right;
+	margin-bottom: 0;
+}
+
+.risk-container__description {
+	display: inline-block;
+	margin-right: 43px;
+	padding-top: 30px;
+	text-align: left;
+	vertical-align: top;
+}
+
+.risk-container__title {
+	max-width: 506px;
+	color: #FFF;
+	font-family: "CircularStd", sans-serif;;
+	font-size: 36px;
+	font-weight: 700;
+	margin-bottom: 13px;
+	line-height: 1.28;
+}
+
+.risk-container__image {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.img-boys {
+	font-size: 0;
+	max-width: 430px;
+	max-height: 548px;
+	border-radius: 20px;
+	background: lightgray 50% / cover no-repeat;
+	box-shadow: 22px 42px 44px 0px rgba(0, 0, 0, 0.30);
+	position: relative;
+	z-index: 1;
+}
+
+.risk-container__image::before {
+	content: "";
+	width: 65px;
+	height: 65px;
+	border: solid 5px;
+	border-radius: 50%;
+	border-color: #FFBA49;;
+	position: absolute;
+	z-index: 2;
+	top: -48px;
+	right: 455px;
+}
+
+.risk-container__image::after {
+	content: "";
+	width: 262px;
+	height: 262px;
+	border: solid 5px;
+	border-radius: 50%;
+	border-color: #FFBA49;;
+	position: absolute;
+	z-index: 0;
+	top: -26px;
+	right: 54px;
+}
+
+.risk-container::after {
+	content: "";
+	height: 213.764px;
+	width: 472.16px;
+	background:  url(../img/decoration/group-ellipse2.png);
+	position: absolute;
+	top: 34.5%;
+	right: 0px;
+	z-index: 0;
+}
+
+.part1,
+.part2 {
+	color: bisque;
+	text-align: center;
+	background-color: rgb(255, 77, 0);
+	line-height: 2;
+	font-size: 24px;
+	margin: 50px;
+}
+
+/* -------Ecobazar-------*/
+
+.featured-products {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	/* border: dashed 2px red; */
+}
+
+.icon-heart-img,
+.icon-eye-img {
+	opacity: 0;
+	visibility: hidden;
+}
+
+.product-card:hover .product-card__icons-container *{
+	opacity: 1;
+	visibility: visible;
+}
+
+.featured-products__container {
+	background-color: #FFBA49;
+	max-width: 1920px;
+}	
+
+.featured-item {
+	max-width: 264px;
+ }
+
+.product-card {
+	max-width: 264px;
+	margin: 0 auto;
+	border: 1px solid var(--Branding-Success-Dark, #2C742F);
+	background: var(--Gray-Scale-White, #FFF);
+	position: relative;
+	font-size: 0;
+}
+
+.product-card:hover {
+	box-shadow: 0px 0px 12px 0px rgba(32, 181, 38, 0.32);
+}
+
+.product-card__image-container {
+	padding:  5px 5px 5.5px 5px;
+}
+
+.product-card__description {
+	padding: 12px;
+	font-size: 0;
+}
+
+.product-price__title {
+	color: var(--Branding-Success-Dark, #2C742F);
+	font-family: Poppins;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 1.5;
+}
+
+.product-card__text-price {
+	color: var(--Gray-Scale-Gray-900, #1A1A1A);
+	font-family: Poppins;
+	font-size: 16px;
+	font-weight: 500;
+	line-height: 1.5;
+	margin-bottom: 6px;
+}
+
+.product-card__icons-container {
+	max-width: 40px;
+	max-height: 86px;
+	position: absolute;
+	right: 16px;
+	top: 16px;
+}
+
+.icon-heart-img {
+	margin-bottom: 6px;
+}
+
+.product-card__button-buy {
+	background-color: #00B307;
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	padding: 10px;
+	position: absolute;
+	right: 16px;
+	bottom: 24px;
+}
+
+.product-card__button-buy:hover {
+	background-color: darkgreen;
+}
+
