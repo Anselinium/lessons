@@ -115,22 +115,18 @@ header {
 	max-width: 480px;
 }
 
-.audit-button,
-.risk-button {
+.primary-button {
 	padding: 22px 26px;
 	color: #FFF;
 	text-align: center;
 	font-family: 'Roboto', sans-serif;
 	font-size: 18px;
 	font-weight: 500;
-	width: 256px;
-	height: 64px;
 	border-radius: 60px;
 	background: #F35B09;
 }
 
-.audit-button:hover,
-.risk-button:hover {
+.primary-button:hover {
 	background: #FFF;
 	color: #F35B09;
 }
@@ -234,7 +230,6 @@ header {
 .featured-products {
 	padding-top: 10px;
 	padding-bottom: 10px;
-	/* border: dashed 2px red; */
 }
 
 .icon-heart-img,
@@ -251,6 +246,7 @@ header {
 .featured-products__container {
 	background-color: #FFBA49;
 	max-width: 1920px;
+	margin: 0 auto;
 }	
 
 .featured-item {
@@ -322,4 +318,3 @@ header {
 .product-card__button-buy:hover {
 	background-color: darkgreen;
 }
-
