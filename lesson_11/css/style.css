@@ -1,0 +1,343 @@
+@import url("reset.css");
+
+@import url("fonts.css");
+
+
+.wrapper {
+	min-height: 100%;
+	font-family: "Poppins", sans-serif;
+}
+
+header {
+	text-align: center;
+	background-color: aqua;
+	line-height: 2;
+	font-size: 36px;
+	margin-bottom: 50px;
+}
+
+.to-home:hover {
+	text-decoration: underline;
+	text-decoration-style: double;
+}
+
+.plane {
+	width: 100%;
+	height: 800px;
+	padding-top: 280px;
+	padding-bottom: 30px;
+	background-color: cadetblue;
+	position: relative;
+}
+
+
+.body-plane {
+	margin: 0 auto;
+	width: 1500px;
+	height: 400px;
+	background-color: #f9f9f9;
+	/* border: 3px dotted red; */
+	border-radius: 28% 72% 43% 57% / 61% 18% 82% 39%;
+	position: relative;
+}
+
+.cabin {
+	width: 300px;
+	height: 65px;
+	background-color: #f9f9f9;
+	border-radius: 61% 39% 0% 100% / 100% 0% 100% 0%;
+	margin-left: 160px;
+	position: relative;
+}
+
+.cabin__windows1 {
+    width: 60px;
+    height: 35px;
+    border-radius: 100% 0% 0% 100% / 100% 0% 100% 0%;
+    position: absolute;
+    top: 20px;
+    left: 7px;
+	border: 1px solid rgba(202, 202, 202, 0.5);
+	background-image: linear-gradient(to right, #e1e1e1, #e5e5e8, #e7eaf0, #e9eff8, #e9f4ff);
+}
+
+.cabin__windows2 {
+    width: 40px;
+    height: 35px;
+    position: absolute;
+    top: 20px;
+    left: 70px;
+    border: 1px solid rgba(202, 202, 202, 0.5);
+	background-image: linear-gradient(to right, #e9f4ff, #e9eff8, #e7eaf0, #e5e5e8, #e1e1e1);
+}
+
+.nose-door {
+	width: 60px;
+	height: 100px;
+	background-color: rgb(255, 255, 255);
+	border: 2px solid #38383880;
+	border-radius: 15px;
+	position: absolute;
+	top: 210px;
+	left: 370px;
+	z-index: 1;
+}
+
+.tail-door {
+    width: 110px;
+    height: 60px;
+    background-color: rgb(255, 255, 255);
+    border: 2px solid rgba(56, 56, 56, 0.5);
+    border-radius: 15px;
+    position: absolute;
+    top: 150px;
+    left: 970px;
+}
+
+.tail-wrapper {
+	perspective: 100px;
+	perspective-origin: center;
+}
+
+.tail {
+    width: 230px;
+    height: 250px;
+    transform: rotateX(350deg);
+    perspective-origin: top right;
+    position: absolute;
+    top: -230px;
+    left: 1250px;
+    background-color: #73baff;
+}
+
+.tail-deco {
+    width: 250px;
+    height: 25px;
+    background-color: #e7e7e7;
+    border-radius: 28% 72% 72% 28% / 48% 36% 64% 52%;
+    position: absolute;
+    top: -85px;
+    left: 1330px;
+	border: 2px solid #b3a7a7;
+}
+
+.tail-deco2 {
+	width: 325px;
+    height: 25px;
+    background-color: #ebffff;
+    border-radius: 28% 72% 72% 28% / 48% 36% 64% 52%;
+    position: absolute;
+    top: -235px;
+    left: 1380px;
+    border: 2px solid #b3a7a7;
+}
+
+.wheel-support-left {
+    width: 70px;
+    height: 10px;
+    background-color: #f9f9f9;
+    transform: rotate(104deg);
+    position: absolute;
+    top: 350px;
+    left: 290px;
+}
+
+.wheel-support-right {
+	width: 70px;
+    height: 10px;
+    background-color: #f9f9f9;
+    transform: rotate(83deg);
+    position: absolute;
+    top: 350px;
+    left: 300px;
+}
+
+.wheels-nose {
+	width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #fff;
+    border: 10px solid #4e4e4e;
+    position: absolute;
+    top: 370px;
+    left: 297px;
+}
+
+.wheels-nose::before {
+	content: "";
+	width: 20px;
+	height: 20px;
+	background-color: #4e4e4e;
+	border-radius: 50%;
+	position: absolute;
+	top: 26%;
+	left: 25%;
+	border: 3px dotted rgb(255, 255, 255);
+}
+
+.wheels-wrapper {
+	width: 450px;
+	height: 60px;
+	white-space: nowrap; 
+	font-size: 0; 
+	position: absolute;
+	top: 375px;
+	left: 550px;
+}
+
+.wheels {
+	display: inline-block;
+	width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #fff;
+    border: 10px solid #4e4e4e;
+	margin-right: 5px;
+	position: relative;
+}
+
+.wheels::before {
+	content: "";
+	width: 20px;
+	height: 20px;
+	background-color: #4e4e4e;
+	border-radius: 50%;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	border: 3px dotted rgb(255, 255, 255);
+}
+
+.engine1 {
+	width: 350px;
+	height: 110px;
+	background-color: #f9f9eb;
+	border-radius: 14% 86% 86% 14% / 48% 47% 53% 52%  ;
+	position: absolute;
+	top: 120px;
+	left: 550px;
+	border: 2px solid #38383880;
+}
+.engine2 {
+	width: 350px;
+	height: 110px;
+	background-color: #f9f9eb;
+	border-radius: 14% 86% 86% 14% / 48% 47% 53% 52%  ;
+	position: absolute;
+	top: 200px;
+	left: 590px;
+	border: 2px solid #38383880;
+	z-index: 1;
+}
+
+
+.wing1 {
+	width: 180px;
+	height: 280px;
+	background-color: #73baff;
+	transform: skew(34deg);
+	position: absolute;
+	top: 40px;
+	left: 700px;
+	z-index: 2;
+}
+.wing2 {
+	width: 200px;
+	height: 280px;
+	background-color: yellow;
+	transform: skew(51deg);
+	position: absolute;
+	top: 40px;
+	left: 600px;
+	z-index: 3;
+}
+
+.decor {
+	width: 1150px;
+	height: 23px;
+	background-color: #73baff;
+	position: absolute;
+	top: 296px;
+	left: 130px;
+	border-radius: 50% 50% 50% 50% / 100% 100% 0% 0%  ;
+}
+.decor2 {
+    width: 1140px;
+    height: 23px;
+    background-color: yellow;
+    position: absolute;
+    top: 320px;
+    left: 130px;
+    border-radius: 0% 100% 26% 74% / 0% 0% 100% 100%;
+}
+
+.wing-deco {
+    width: 250px;
+    height: 25px;
+    background-color: #dde3e3;
+    border-radius: 28% 72% 72% 28% / 48% 36% 64% 52%;
+    position: absolute;
+    top: 310px;
+    left: 750px;
+    z-index: 3;
+	border: 2px solid #c7baba;
+}
+
+.ant {
+    font-size: 20px;
+    font-weight: 700;
+    color: blue;
+    font-family: Roboto;
+    position: absolute;
+    top: 200px;
+    left: 150px;
+    letter-spacing: 2px;
+    line-height: 1.9;
+	font-style: italic;
+}
+.number {
+    font-size: 30px;
+    font-weight: 700;
+    color: blue;
+    font-family: Roboto;
+    position: absolute;
+    top: 200px;
+    left: 265px;
+    font-style: italic;
+}
+
+.text-high {
+    font-size: 15px;
+    font-weight: 700;
+    color: blue;
+    font-family: Roboto;
+    position: absolute;
+    top: 90px;
+    left: 325px;
+    letter-spacing: 2px;
+    line-height: 1.9;
+}
+.text-down {
+    font-size: 15px;
+    font-weight: 700;
+    color: blue;
+    font-family: Roboto;
+    position: absolute;
+    top: 110px;
+    left: 360px;
+    letter-spacing: 2px;
+    line-height: 1.9;
+}
+
+.roof {
+    width: 300px;
+    height: 60px;
+    background-color: #f9f9f9;
+    border-radius: 16% 84% 50% 50% / 100% 100% 0% 0%;
+    position: absolute;
+    top: -50px;
+    left: 600px;
+    z-index: 5;
+
+}
