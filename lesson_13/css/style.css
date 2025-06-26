@@ -1,0 +1,257 @@
+@import url("reset.css");
+
+@import url("fonts.css");
+
+
+.wrapper {
+	overflow: clip;
+	min-height: 100%;
+	display: flex;
+	flex-direction: column;
+}
+
+.wrapper > main {
+	flex-grow: 1;
+}
+
+header {
+	text-align: center;
+	background-color: #f17f33;
+	line-height: 2;
+	font-size: 36px;
+}
+.footer {
+	text-align: center;
+	background-color: #f17f33;
+	line-height: 2;
+	font-size: 36px;
+}
+
+/* ------Container1------ */
+
+.container1 {
+	width: 100%;
+	background-color: #412672;
+	padding-top: 61px;
+	padding-bottom: 102px;
+}
+
+.professional-faculty {
+	flex-direction: column;
+	margin: 0 auto;
+	max-width: 1201px;
+	flex-wrap: wrap;
+}
+
+.professional-faculty__title {
+	color: #FFF;
+	font-family: "Inter", sans-serif;
+	font-size: 38px;
+	line-height: 1.2;
+	margin-bottom: 31px;
+}
+
+.professional-faculty__persons {
+	display: inline-flex;
+	gap: 20px;
+	flex-wrap: wrap;
+}
+
+.person {
+	display: flex;
+	flex-direction: column;
+	padding: 20px;
+	gap: 16px;
+	background: #FFF;
+	box-shadow: 0px 384px 108px 0px rgba(0, 0, 0, 0.00), 0px 246px 98px 0px rgba(0, 0, 0, 0.01), 0px 138px 83px 0px rgba(0, 0, 0, 0.05), 0px 62px 62px 0px rgba(0, 0, 0, 0.09), 0px 15px 34px 0px rgba(0, 0, 0, 0.10);
+}
+
+.person:hover {
+	background: #FFBE48;
+	transition: 0.3s;
+}
+
+.person__foto {
+	width: 347px;
+	height: 266px;
+}
+
+.person__name {
+	color: #000;
+    font-family: "Inter", sans-serif;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 1.2;
+}
+
+.person__description {
+	color: #4F4F4F;
+    font-family: "Inter", sans-serif;
+    font-size: 15px;
+    line-height: 1.26;
+	flex-grow: 1;
+	max-width: 347px;
+}
+
+.person__link {
+    color: #FE3F3F;
+    font-family: "Inter", sans-serif;
+    font-size: 15px;
+    line-height: 1.27;
+}
+
+.person__link:hover {
+	text-decoration: underline;
+}
+
+/* ------Container2------ */
+
+.container2 {
+	max-width: 1201px;
+	color: #FFF;
+	padding-top: 55px;
+	padding-bottom: 72px;
+	margin: 0 auto;
+}
+
+.faculty-general-california {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 90px;
+	flex-grow: 1;
+}
+
+.faculty-california-info {
+	display: flex;
+	max-width: 518px;
+	flex-direction: column;
+	align-self: center;
+	gap: 20px;
+	flex-grow: 1;
+}
+
+.faculty-california-info__title {
+	color: #412672;
+	font-family: "Inter", sans-serif;
+	font-size: 34px;
+	line-height: 1.2;
+}
+
+.faculty-california-info__description {
+	color: #412672;
+	font-family: "Inter", sans-serif;
+	font-size: 22px;
+}
+
+.faculty-california-info__items {
+	display: flex;
+	flex-direction: column;
+}
+
+.faculty-california-info__item {
+	color: #4F4F4F;
+	font-family: "Inter", sans-serif;
+	font-size: 20px;
+	display: inline-flex;
+	align-items: center;
+}
+
+.faculty-california-info__item:not(:last-child) {
+	margin-bottom: 21px;
+}
+
+.faculty-california-info__item::before {
+	content: "";
+	align-self: center;
+	background: url(../img/icons/frame.svg) 0 0 / 100% no-repeat;
+	flex-grow: 0;
+	flex-shrink: 0;
+	width: 29px;
+	height: 29px;
+	margin-right: 15px;
+	align-self: flex-start;
+}
+
+.faculty-california-image {
+	flex-grow: 0;
+	flex-shrink: 0;
+	flex-basis: 754px;
+	margin-right: -168px;
+}
+
+/* ------Container3------ */
+
+.container3 {
+	max-width: 100%;
+	margin: 0 auto;
+	background: #412672;
+}
+
+.benefits {
+	max-width: 1201px;
+	padding-top: 70px;
+	padding-bottom: 70px;
+	margin: 0 auto;
+	/* display: flex; */
+}
+
+.benefits__title {
+	color: #fff;
+	text-align: center;
+	font-family: "Inter", sans-serif;
+	font-size: 24px;
+	margin-bottom: 30px;
+}
+
+.benefits__items {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+.benefits__item-selection,
+.benefits__item-experience,
+.benefits__item-courses,
+.benefits__item-books {
+	display: flex;
+	gap: 10px;
+}
+
+.benefits__item-icon-selection {
+	width: 80px;
+	height: 80px;
+}
+
+.benefits__item-icon-experience, 
+.benefits__item-icon-courses,
+.benefits__item-icon-books {
+	width: 70px;
+	height: 70px;
+}
+
+.benefits__item-descr {
+	align-self: center;
+	text-align: center;
+}
+
+.benefits__item-title {
+	color: #FFF;
+	text-align: center;
+	font-family: "Inter", sans-serif;
+	font-size: 24px;
+	font-weight: 700;
+	line-height: 24px; /* 100% */
+}
+
+.benefits__item-info {
+	color: #fff;
+	font-family: "Inter", sans-serif;
+	font-size: 15px;
+	font-weight: 400;
+	line-height: 24px;
+}
+
+.to-home:hover {
+	text-decoration: underline;
+}
+
