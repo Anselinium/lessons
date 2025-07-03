@@ -304,6 +304,10 @@ select:valid {
 	flex: 1;
 }
 
+.name-product:hover {
+	text-decoration: underline;
+}
+
 .name-product,
 .quantity-product,
 .price-product,
