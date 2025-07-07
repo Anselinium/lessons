@@ -25,188 +25,189 @@
 			<main class="page">
 				<div class="page__container">
 					<div class="cart">
-						<div class="cart__container">
-
-							<div class="input-field">
-
-								<div class="billing-information">
-									<h2 class="billing-information__title">Billing Information</h2>
-									<div class="billing-information__wrapper">
-										<div class="personal-info">
-											<div class="first-name">
-												<label class="label-title" for="field-first-name">First
-													name</label>
-												<input class="form-input" id="field-first-name" type="text"
-													name="form[]"
-													placeholder="Your first name">
+						<form action="#" method="post" name="purchase-form">
+							<div class="cart__container">
+								<div class="input-field">
+									<div class="billing-information">
+										<h2 class="billing-information__title">Billing Information</h2>
+										<div class="billing-information__wrapper">
+											<div class="personal-info">
+												<div class="first-name">
+													<label class="label-title" for="field-first-name">First
+														name</label>
+													<input class="form-input" id="field-first-name" type="text"
+														name="form[]"
+														placeholder="Your first name" required>
+												</div>
+												<div class="last-name">
+													<label class="label-title" for="field-last-name">Last
+														name</label>
+													<input class="form-input" id="field-last-name" type="text"
+														name="form[]"
+														placeholder="Your last name" required>
+												</div>
+												<div class="company-name">
+													<label class="label-title" for="field-company-name">Company
+														Name</label>
+													<input class="form-input" id="field-company-name"
+														type="text"
+														name="form[]"
+														placeholder="Company name">
+												</div>
 											</div>
-											<div class="last-name">
-												<label class="label-title" for="field-last-name">Last
-													name</label>
-												<input class="form-input" id="field-last-name" type="text"
-													name="form[]"
-													placeholder="Your last name">
-											</div>
-											<div class="company-name">
-												<label class="label-title" for="field-company-name">Company
-													Name</label>
-												<input class="form-input" id="field-company-name"
+											<div class="street-address">
+												<label class="label-title" for="field-street-address">Street
+													Address</label>
+												<input class="form-input" id="field-street-address"
 													type="text"
 													name="form[]"
-													placeholder="Company name">
+													placeholder="Your Street Address" required>
+											</div>
+											<div class="region-details">
+												<div class="country">
+													<label class="label-title">Country /
+														Region</label>
+													<select name="form[select]" id="country-value" required>
+														<option value selected hidden>Select</option>
+														<option value="at">Austria</option>
+														<option value="fi">Finland</option>
+														<option value="de">Germany</option>
+														<option value="pt">Portugal</option>
+														<option value="es">Spain</option>
+														<option value="ua">Ukraine</option>
+													</select>
+												</div>
+												<div class="state">
+													<label class="label-title">State</label>
+													<select name="form[select]" id="state-value" required>
+														<option value selected hidden>Select</option>
+														<option value="north">North</option>
+														<option value="south">South</option>
+														<option value="west">West</option>
+														<option value="east">East</option>
+													</select>
+												</div>
+												<div class="zip-code">
+													<label class="label-title" for="field-zip-code">Zip Code</label>
+													<input class="form-input" id="field-zip-code"
+														type="text"
+														name="form[]"
+														placeholder="Zip Code" required>
+												</div>
+											</div>
+											<div class="contact-info">
+												<div class="email">
+													<label class="label-title" for="field-email">Email</label>
+													<input class="form-input" id="field-email" type="email"
+														name="form[]"
+														placeholder="Email Address" required>
+												</div>
+												<div class="phone">
+													<label class="label-title" for="field-phone">Phone</label>
+													<input class="form-input" id="field-phone" type="tel"
+														name="form[]"
+														placeholder="Phone number" required>
+												</div>
+											</div>
+											<div class="delivery-option">
+												<label class="checkbox" for="other-address">
+													<input class="checkbox__input" type="checkbox" name="form[]"
+														id="other-address">
+													<span class="checkbox__label">Ship to a different address</span>
+												</label>
 											</div>
 										</div>
-										<div class="street-address">
-											<label class="label-title" for="field-street-address">Street
-												Address</label>
-											<input class="form-input" id="field-street-address"
-												type="text"
+									</div>
+									<div class="additional-info">
+										<h2 class="additional-info__title">Additional Info</h2>
+										<div class="additional-info__wrapper">
+											<label class="label-title" for="field-additional-info">Order Notes
+												(Optional)</label>
+											<textarea class="form-textarea" id="field-additional-info"
 												name="form[]"
-												placeholder="Your Street Address">
+												placeholder="Notes about your order, e.g. special notes for delivery"></textarea>
 										</div>
-										<div class="region-details">
-											<div class="country">
-												<label class="label-title">Country /
-													Region</label>
-												<select name="form[select]" id="country-value" required>
-													<option value selected hidden>Select</option>
-													<option value="at">Austria</option>
-													<option value="fi">Finland</option>
-													<option value="de">Germany</option>
-													<option value="pt">Portugal</option>
-													<option value="es">Spain</option>
-													<option value="ua">Ukraine</option>
-												</select>
-											</div>
-											<div class="state">
-												<label class="label-title">State</label>
-												<select name="form[select]" id="state-value" required>
-													<option value selected hidden>Select</option>
-													<option value="north">North</option>
-													<option value="south">South</option>
-													<option value="west">West</option>
-													<option value="east">East</option>
-												</select>
-											</div>
-											<div class="zip-code">
-												<label class="label-title" for="field-zip-code">Zip Code</label>
-												<input class="form-input" id="field-zip-code"
-													type="text"
-													name="form[]"
-													placeholder="Zip Code">
-											</div>
-										</div>
-										<div class="contact-info">
-											<div class="email">
-												<label class="label-title" for="field-email">Email</label>
-												<input class="form-input" id="field-email" type="email"
-													name="form[]"
-													placeholder="Email Address">
-											</div>
-											<div class="phone">
-												<label class="label-title" for="field-phone">Phone</label>
-												<input class="form-input" id="field-phone" type="tel"
-													name="form[]"
-													placeholder="Phone number">
-											</div>
-										</div>
-										<div class="delivery-option">
-											<label class="checkbox" for="other-address">
-												<input class="checkbox__input" type="checkbox" name="form[]"
-													id="other-address">
-												<span class="checkbox__label">Ship to a different address</span>
+									</div>
+								</div>
+								<div class="product-field">
+									<div class="order-summery">
+										<h3 class="order-summery__title">Order Summery</h3>
+										<ul class="shopping-list">
+											<li class="shopping-list__item">
+												<div class="link-row">
+													<a class="product-link" href="#">
+														<img src="img/products/green-capsicum.png"
+															alt="Зелений болгарський перець на білому фоні">
+													</a>
+													<a href>
+														<span class="name-product">Green Capsicum</span>
+													</a>
+													<label class="label-quantity">x
+														<input class="input-quantity" value="1" min="1" type="number"
+															name="form[]">
+													</label>
+												</div>
+												<p class="price-product">$70.00</p>
+											</li>
+											<li class="shopping-list__item">
+												<div class="link-row">
+													<a class="product-link" href="#">
+														<img src="img/products/red-capsicum.png"
+															alt="Червоний болгарський перець на білому фоні">
+													</a>
+													<a href>
+														<span class="name-product">Red Capsicum</span>
+													</a>
+													<label class="label-quantity">x
+														<input class="input-quantity" value="1" min="1" type="number"
+															name="form[]">
+													</label>
+												</div>
+												<p class="price-product">$14.00</p>
+											</li>
+										</ul>
+										<ul class="price-field">
+											<li class="subtotal">
+												<span>Subtotal:</span>
+												<p class="price-product">$84.00</p>
+											</li>
+											<li class="shipping">
+												<span>Shipping:</span>
+												<p class="price-product">Free</p>
+											</li>
+
+											<li class="total">
+												<span>Total:</span>
+												<p class="price-product">$84.00</p>
+											</li>
+										</ul>
+									</div>
+									<div class="payment-method">
+										<h3 class="payment-method__title">Payment Method</h3>
+										<div class="payment-method__items">
+											<label class="option-payment" for="con">
+												<input checked type="radio" name="form[pay]" id="con" value="1"
+													class="option-payment__input">
+												<span class="option-payment__label">Cash on Delivery</span>
+											</label>
+											<label class="option-payment" for="paypal">
+												<input type="radio" name="form[pay]" id="paypal" value="2"
+													class="option-payment__input">
+												<span class="option-payment__label">Paypal</span>
+											</label>
+											<label class="option-payment" for="amazon">
+												<input type="radio" name="form[pay]" id="amazon" value="3"
+													class="option-payment__input">
+												<span class="option-payment__label">Amazon Pay</span>
 											</label>
 										</div>
 									</div>
-								</div>
-								<div class="additional-info">
-									<h2 class="additional-info__title">Additional Info</h2>
-									<div class="additional-info__wrapper">
-										<label class="label-title" for="field-additional-info">Order Notes
-											(Optional)</label>
-										<textarea class="form-textarea" id="field-additional-info"
-											name="form[]"
-											placeholder="Notes about your order, e.g. special notes for delivery"></textarea>
-									</div>
+									<form action="#" class="form-button">
+										<button class="button-submit" type="submit">Place Order</button>
+									</form>
 								</div>
 							</div>
-
-							<div class="product-field">
-
-								<div class="order-summery">
-									<h3 class="order-summery__title">Order Summery</h3>
-
-									<ul class="shopping-list">
-
-										<li class="shopping-list__item">
-											<a class="product-link" href="#">
-												<img src="img/products/green-capsicum.png"
-													alt="Зелений болгарський перець на білому фоні">
-												<span class="name-product">Green Capsicum</span>
-												<span class="quantity-product">x5</span>
-											</a>
-
-											<p class="price-product">$70.00</p>
-										</li>
-
-										<li class="shopping-list__item">
-											<a class="product-link" href="#">
-												<img src="img/products/red-capsicum.png"
-													alt="Червоний болгарський перець на білому фоні">
-												<span class="name-product">Green Capsicum</span>
-												<span class="quantity-product">x1</span>
-											</a>
-											<p class="price-product">$14.00</p>
-										</li>
-
-									</ul>
-
-									<ul class="price-field">
-
-										<li class="subtotal">
-											<span>Subtotal:</span>
-											<p class="price-product">$84.00</p>
-										</li>
-										<li class="shipping">
-											<span>Shipping:</span>
-											<p class="price-product">Free</p>
-										</li>
-
-										<li class="total">
-											<span>Total:</span>
-											<p class="price-product">$84.00</p>
-										</li>
-
-									</ul>
-								</div>
-
-								<div class="payment-method">
-
-									<h3 class="payment-method__title">Payment Method</h3>
-
-									<div class="payment-method__items">
-										<label class="option-payment" for="con">
-											<input checked type="radio" name="form[pay]" id="con" value="1"
-												class="option-payment__input">
-											<span class="option-payment__label">Cash on Delivery</span>
-										</label>
-										<label class="option-payment" for="paypal">
-											<input type="radio" name="form[pay]" id="paypal" value="2"
-												class="option-payment__input">
-											<span class="option-payment__label">Paypal</span>
-										</label>
-										<label class="option-payment" for="amazon">
-											<input type="radio" name="form[pay]" id="amazon" value="3"
-												class="option-payment__input">
-											<span class="option-payment__label">Amazon Pay</span>
-										</label>
-									</div>
-								</div>
-								<form action="#" class="form-button">
-									<button class="button-submit" type="submit">Place Order</button>
-								</form>
-							</div>
-						</div>
+						</form>
 					</div>
 				</div>
 			</main>
