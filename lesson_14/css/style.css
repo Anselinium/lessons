@@ -234,7 +234,7 @@ select:valid {
 }
 
 .form-textarea {
-	height: 100px;
+	min-height: 90px;
 	padding: 14px 16px 14px 16px;
 	border-radius: 6px;
 	border: 1px solid #E6E6E6;
@@ -291,17 +291,32 @@ select:valid {
 .shopping-list__item {
 	display: flex;
 	align-items: center;
-	justify-content: space-between;
 	width: 100%;
-	gap: 10px;
 	flex-wrap: wrap;
 }
 
-.product-link {
+.label-quantity {
+	padding: 0;
+	margin: 0;
+	color: #1A1A1A;
+	font-family: Poppins;
+	font-size: 14px;
+	line-height: 1.5;
+}
+
+.link-row {
 	display: flex;
 	gap: 6px;
 	align-items: center;
 	flex: 1;
+}
+
+.input-quantity {
+	width: 40px;
+    height: 22px;
+    margin-left: -2px;
+    padding: 0;
+    border: none;
 }
 
 .name-product:hover {
@@ -434,4 +449,3 @@ select:valid {
 .up:hover {
 	text-decoration: underline;
 }
-
