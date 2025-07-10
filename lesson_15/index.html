@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+		<link rel="stylesheet" href="css/style.css">
+
+		<link
+			href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap"
+			rel="stylesheet">
+
+		<title>Lesson_15</title>
+	</head>
+	<body>
+		<div class="wrapper">
+			<header class="header">
+				<div class="header__container">Lesson 15 - Adaptive Interface </div>
+			</header>
+			<main class="page">
+				<div class="page__container">
+
+					<div class="featured-product">
+						<div class="featured-product__container">
+							<div class="block-header">
+								<h2 class="block-header__title">Featured Products</h2>
+								<a href="#" class="block-header__more">View All</a>
+							</div>
+							<div class="featured-product__row">
+								<!-- 1-st -->
+								<div class="product-block">
+									<a href="#" class="product-block__img">
+										<img src="img/products/apples.webp"
+											alt="Три зелені яблука на білому фоні">
+									</a>
+									<div class="product-block__info">
+										<h3 class="product-block__title">
+											<a href="#" class="product-block__link-title">Green Apple</a>
+										</h3>
+										<div class="product-block__price">
+											<div class="actual-price">$14.99</div>
+											<div class="old-price">$20.99</div>
+										</div>
+										<div class="product-block__rating">
+											<img src="img/icons/rating.svg"
+												alt="Зображення рейтингу товару - чотири жовті зірки із п'яти">
+										</div>
+										<button class="add-to-cart">
+											<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
+												viewBox="0 0 20 20" fill="none"><path
+													d="M6.66667 8.33333H4.16667L2.5 17.5H17.5L15.8333 8.33333H13.3333M6.66667 8.33333V5.83334C6.66667 3.99239 8.15905 2.5 10 2.5V2.5C11.8409 2.5 13.3333 3.99238 13.3333 5.83333V8.33333M6.66667 8.33333H13.3333M6.66667 8.33333V10.8333M13.3333 8.33333V10.8333"
+													stroke="CurrentColor" stroke-width="1.3" stroke-linecap="round"
+													stroke-linejoin="round" /></svg>
+										</button>
+									</div>
+									<div class="sale-label">
+										<div class="sale-label__title">Sale</div>
+										<div class="sale-label__value">50%</div>
+									</div>
+									<div class="best-price-label">
+										<div class="best-price-label__title">Best price</div>
+									</div>
+									<div class="product-block__icons">
+										<button class="favorite-icon">
+											<svg width="20" height="20" viewBox="0 0 20 20" fill="none"
+												xmlns="http://www.w3.org/2000/svg">
+												<path
+													d="M9.9996 17.5451C-6.66672 8.33332 4.99993 -1.66668 9.9996 4.6567C14.9999 -1.66668 26.6666 8.33332 9.9996 17.5451Z"
+													stroke="CurrentColor" stroke-width="1.5"></path>
+											</svg>
+										</button>
+										<button class="preview-icon">
+											<svg width="20" height="20" viewBox="0 0 20 20" fill="none"
+												xmlns="http://www.w3.org/2000/svg">
+												<path
+													d="M10 3.54103C3.75 3.54103 1.25 10.0001 1.25 10.0001C1.25 10.0001 3.75 16.4577 10 16.4577C16.25 16.4577 18.75 10.0001 18.75 10.0001C18.75 10.0001 16.25 3.54103 10 3.54103V3.54103Z"
+													stroke="CurrentColor" stroke-width="1.5" stroke-linecap="round"
+													stroke-linejoin="round"></path>
+												<path
+													d="M10 13.125C10.8288 13.125 11.6237 12.7958 12.2097 12.2097C12.7958 11.6237 13.125 10.8288 13.125 10C13.125 9.1712 12.7958 8.37634 12.2097 7.79029C11.6237 7.20424 10.8288 6.875 10 6.875C9.1712 6.875 8.37634 7.20424 7.79029 7.79029C7.20424 8.37634 6.875 9.1712 6.875 10C6.875 10.8288 7.20424 11.6237 7.79029 12.2097C8.37634 12.7958 9.1712 13.125 10 13.125V13.125Z"
+													stroke="CurrentColor" stroke-width="1.5" stroke-linecap="round"
+													stroke-linejoin="round"></path>
+											</svg>
+										</button>
+									</div>
+								</div>
+								<!-- 2-nd -->
+								<div class="product-block">
+									<a href="#" class="product-block__img">
+										<img src="img/products/oranges.webp"
+											alt="Три апельсини на білому фоні">
+									</a>
+									<div class="product-block__info">
+										<h3 class="product-block__title">
+											<a href="#" class="product-block__link-title">Fresh Indian Malta</a>
+										</h3>
+										<div class="product-block__price">
+											<div class="actual-price">$20.00</div>
+										</div>
+										<div class="product-block__rating">
+											<img src="img/icons/rating.svg"
+												alt="Зображення рейтингу товару - чотири жовті зірки із п'яти">
+										</div>
+										<button class="add-to-cart">
+											<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
+												viewBox="0 0 20 20" fill="none"><path
+													d="M6.66667 8.33333H4.16667L2.5 17.5H17.5L15.8333 8.33333H13.3333M6.66667 8.33333V5.83334C6.66667 3.99239 8.15905 2.5 10 2.5V2.5C11.8409 2.5 13.3333 3.99238 13.3333 5.83333V8.33333M6.66667 8.33333H13.3333M6.66667 8.33333V10.8333M13.3333 8.33333V10.8333"
+													stroke="CurrentColor" stroke-width="1.3" stroke-linecap="round"
+													stroke-linejoin="round" /></svg>
+										</button>
+									</div>
+									<div class="product-block__icons">
+										<button class="favorite-icon">
+											<svg width="20" height="20" viewBox="0 0 20 20" fill="none"
+												xmlns="http://www.w3.org/2000/svg">
+												<path
+													d="M9.9996 17.5451C-6.66672 8.33332 4.99993 -1.66668 9.9996 4.6567C14.9999 -1.66668 26.6666 8.33332 9.9996 17.5451Z"
+													stroke="CurrentColor" stroke-width="1.5"></path>
+											</svg>
+										</button>
+										<button class="preview-icon">
+											<svg width="20" height="20" viewBox="0 0 20 20" fill="none"
+												xmlns="http://www.w3.org/2000/svg">
+												<path
+													d="M10 3.54103C3.75 3.54103 1.25 10.0001 1.25 10.0001C1.25 10.0001 3.75 16.4577 10 16.4577C16.25 16.4577 18.75 10.0001 18.75 10.0001C18.75 10.0001 16.25 3.54103 10 3.54103V3.54103Z"
+													stroke="CurrentColor" stroke-width="1.5" stroke-linecap="round"
+													stroke-linejoin="round"></path>
+												<path
+													d="M10 13.125C10.8288 13.125 11.6237 12.7958 12.2097 12.2097C12.7958 11.6237 13.125 10.8288 13.125 10C13.125 9.1712 12.7958 8.37634 12.2097 7.79029C11.6237 7.20424 10.8288 6.875 10 6.875C9.1712 6.875 8.37634 7.20424 7.79029 7.79029C7.20424 8.37634 6.875 9.1712 6.875 10C6.875 10.8288 7.20424 11.6237 7.79029 12.2097C8.37634 12.7958 9.1712 13.125 10 13.125V13.125Z"
+													stroke="CurrentColor" stroke-width="1.5" stroke-linecap="round"
+													stroke-linejoin="round"></path>
+											</svg>
+										</button>
+									</div>
+								</div>
+								<!-- 3-rd -->
+								<div class="product-block">
+									<a href="#" class="product-block__img">
+										<img src="img/products/cabbage.webp"
+											alt="Китайська листова капуста на білому фоні">
+									</a>
+									<div class="product-block__info">
+										<h3 class="product-block__title">
+											<a href="#" class="product-block__link-title">Chinese cabbage</a>
+										</h3>
+										<div class="product-block__price">
+											<div class="actual-price">$12.00</div>
+										</div>
+										<div class="product-block__rating">
+											<img src="img/icons/rating.svg"
+												alt="Зображення рейтингу товару - чотири жовті зірки із п'яти">
+										</div>
+										<button class="add-to-cart">
+											<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
+												viewBox="0 0 20 20" fill="none"><path
+													d="M6.66667 8.33333H4.16667L2.5 17.5H17.5L15.8333 8.33333H13.3333M6.66667 8.33333V5.83334C6.66667 3.99239 8.15905 2.5 10 2.5V2.5C11.8409 2.5 13.3333 3.99238 13.3333 5.83333V8.33333M6.66667 8.33333H13.3333M6.66667 8.33333V10.8333M13.3333 8.33333V10.8333"
+													stroke="CurrentColor" stroke-width="1.3" stroke-linecap="round"
+													stroke-linejoin="round" /></svg>
+										</button>
+									</div>
+									<div class="product-block__icons">
+										<button class="favorite-icon">
+											<svg width="20" height="20" viewBox="0 0 20 20" fill="none"
+												xmlns="http://www.w3.org/2000/svg">
+												<path
+													d="M9.9996 17.5451C-6.66672 8.33332 4.99993 -1.66668 9.9996 4.6567C14.9999 -1.66668 26.6666 8.33332 9.9996 17.5451Z"
+													stroke="CurrentColor" stroke-width="1.5"></path>
+											</svg>
+										</button>
+										<button class="preview-icon">
+											<svg width="20" height="20" viewBox="0 0 20 20" fill="none"
+												xmlns="http://www.w3.org/2000/svg">
+												<path
+													d="M10 3.54103C3.75 3.54103 1.25 10.0001 1.25 10.0001C1.25 10.0001 3.75 16.4577 10 16.4577C16.25 16.4577 18.75 10.0001 18.75 10.0001C18.75 10.0001 16.25 3.54103 10 3.54103V3.54103Z"
+													stroke="CurrentColor" stroke-width="1.5" stroke-linecap="round"
+													stroke-linejoin="round"></path>
+												<path
+													d="M10 13.125C10.8288 13.125 11.6237 12.7958 12.2097 12.2097C12.7958 11.6237 13.125 10.8288 13.125 10C13.125 9.1712 12.7958 8.37634 12.2097 7.79029C11.6237 7.20424 10.8288 6.875 10 6.875C9.1712 6.875 8.37634 7.20424 7.79029 7.79029C7.20424 8.37634 6.875 9.1712 6.875 10C6.875 10.8288 7.20424 11.6237 7.79029 12.2097C8.37634 12.7958 9.1712 13.125 10 13.125V13.125Z"
+													stroke="CurrentColor" stroke-width="1.5" stroke-linecap="round"
+													stroke-linejoin="round"></path>
+											</svg>
+										</button>
+									</div>
+								</div>
+								<!-- 4-th -->
+								<div class="product-block">
+									<a href="#" class="product-block__img">
+										<img src="img/products/lettuce.webp"
+											alt="Листя салату на білому фоні">
+									</a>
+									<div class="product-block__info">
+										<h3 class="product-block__title">
+											<a href="#" class="product-block__link-title">Green Lettuce</a>
+										</h3>
+										<div class="product-block__price">
+											<div class="actual-price">$9.00</div>
+										</div>
+										<div class="product-block__rating">
+											<img src="img/icons/rating.svg"
+												alt="Зображення рейтингу товару - чотири жовті зірки із п'яти">
+										</div>
+										<button class="add-to-cart">
+											<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
+												viewBox="0 0 20 20" fill="none"><path
+													d="M6.66667 8.33333H4.16667L2.5 17.5H17.5L15.8333 8.33333H13.3333M6.66667 8.33333V5.83334C6.66667 3.99239 8.15905 2.5 10 2.5V2.5C11.8409 2.5 13.3333 3.99238 13.3333 5.83333V8.33333M6.66667 8.33333H13.3333M6.66667 8.33333V10.8333M13.3333 8.33333V10.8333"
+													stroke="CurrentColor" stroke-width="1.3" stroke-linecap="round"
+													stroke-linejoin="round" /></svg>
+										</button>
+									</div>
+									<div class="product-block__icons">
+										<button class="favorite-icon">
+											<svg width="20" height="20" viewBox="0 0 20 20" fill="none"
+												xmlns="http://www.w3.org/2000/svg">
+												<path
+													d="M9.9996 17.5451C-6.66672 8.33332 4.99993 -1.66668 9.9996 4.6567C14.9999 -1.66668 26.6666 8.33332 9.9996 17.5451Z"
+													stroke="CurrentColor" stroke-width="1.5"></path>
+											</svg>
+										</button>
+										<button class="preview-icon">
+											<svg width="20" height="20" viewBox="0 0 20 20" fill="none"
+												xmlns="http://www.w3.org/2000/svg">
+												<path
+													d="M10 3.54103C3.75 3.54103 1.25 10.0001 1.25 10.0001C1.25 10.0001 3.75 16.4577 10 16.4577C16.25 16.4577 18.75 10.0001 18.75 10.0001C18.75 10.0001 16.25 3.54103 10 3.54103V3.54103Z"
+													stroke="CurrentColor" stroke-width="1.5" stroke-linecap="round"
+													stroke-linejoin="round"></path>
+												<path
+													d="M10 13.125C10.8288 13.125 11.6237 12.7958 12.2097 12.2097C12.7958 11.6237 13.125 10.8288 13.125 10C13.125 9.1712 12.7958 8.37634 12.2097 7.79029C11.6237 7.20424 10.8288 6.875 10 6.875C9.1712 6.875 8.37634 7.20424 7.79029 7.79029C7.20424 8.37634 6.875 9.1712 6.875 10C6.875 10.8288 7.20424 11.6237 7.79029 12.2097C8.37634 12.7958 9.1712 13.125 10 13.125V13.125Z"
+													stroke="CurrentColor" stroke-width="1.5" stroke-linecap="round"
+													stroke-linejoin="round"></path>
+											</svg>
+										</button>
+									</div>
+								</div>
+								<!-- 5-th -->
+								<div class="product-block">
+									<a href="#" class="product-block__img">
+										<img src="img/products/eggplant.webp"
+											alt="Два баклажани на білому фоні">
+									</a>
+									<div class="product-block__info">
+										<h3 class="product-block__title">
+											<a href="#" class="product-block__link-title">Eggplant</a>
+										</h3>
+										<div class="product-block__price">
+											<div class="actual-price">$34.00</div>
+										</div>
+										<div class="product-block__rating">
+											<img src="img/icons/rating.svg"
+												alt="Зображення рейтингу товару - чотири жовті зірки із п'яти">
+										</div>
+										<button class="add-to-cart">
+											<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
+												viewBox="0 0 20 20" fill="none"><path
+													d="M6.66667 8.33333H4.16667L2.5 17.5H17.5L15.8333 8.33333H13.3333M6.66667 8.33333V5.83334C6.66667 3.99239 8.15905 2.5 10 2.5V2.5C11.8409 2.5 13.3333 3.99238 13.3333 5.83333V8.33333M6.66667 8.33333H13.3333M6.66667 8.33333V10.8333M13.3333 8.33333V10.8333"
+													stroke="CurrentColor" stroke-width="1.3" stroke-linecap="round"
+													stroke-linejoin="round" /></svg>
+										</button>
+									</div>
+									<div class="product-block__icons">
+										<button class="favorite-icon">
+											<svg width="20" height="20" viewBox="0 0 20 20" fill="none"
+												xmlns="http://www.w3.org/2000/svg">
+												<path
+													d="M9.9996 17.5451C-6.66672 8.33332 4.99993 -1.66668 9.9996 4.6567C14.9999 -1.66668 26.6666 8.33332 9.9996 17.5451Z"
+													stroke="CurrentColor" stroke-width="1.5"></path>
+											</svg>
+										</button>
+										<button class="preview-icon">
+											<svg width="20" height="20" viewBox="0 0 20 20" fill="none"
+												xmlns="http://www.w3.org/2000/svg">
+												<path
+													d="M10 3.54103C3.75 3.54103 1.25 10.0001 1.25 10.0001C1.25 10.0001 3.75 16.4577 10 16.4577C16.25 16.4577 18.75 10.0001 18.75 10.0001C18.75 10.0001 16.25 3.54103 10 3.54103V3.54103Z"
+													stroke="CurrentColor" stroke-width="1.5" stroke-linecap="round"
+													stroke-linejoin="round"></path>
+												<path
+													d="M10 13.125C10.8288 13.125 11.6237 12.7958 12.2097 12.2097C12.7958 11.6237 13.125 10.8288 13.125 10C13.125 9.1712 12.7958 8.37634 12.2097 7.79029C11.6237 7.20424 10.8288 6.875 10 6.875C9.1712 6.875 8.37634 7.20424 7.79029 7.79029C7.20424 8.37634 6.875 9.1712 6.875 10C6.875 10.8288 7.20424 11.6237 7.79029 12.2097C8.37634 12.7958 9.1712 13.125 10 13.125V13.125Z"
+													stroke="CurrentColor" stroke-width="1.5" stroke-linecap="round"
+													stroke-linejoin="round"></path>
+											</svg>
+										</button>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="latest-news">
+						<div class="latest-news__container">
+							<div class="latest-news__header">
+								<h2 class="latest-news__title">Latest News</h2>
+							</div>
+							<div class="latest-news__row">
+
+								<div class="news-card">
+									<a href="#" class="news-card__image-link">
+										<img class="news-card__image" src="img/fotos/oranges.webp"
+											alt="Апельсинові скибочки занурюються в воду на блакитному фоні">
+										<div class="news-card__date">
+											<div class="news-card__date-day">18</div>
+											<div class="news-card__date-month">Nov</div>
+										</div>
+									</a>
+									<div class="news-card__content">
+										<div class="news-card__meta">
+											<a class="news-card__meta-link news-card__meta-link--category"
+												href="#">Food</a>
+											<a class="news-card__meta-link news-card__meta-link--author"
+												href="#">By Admin</a>
+											<a class="news-card__meta-link news-card__meta-link--comments"
+												href="#">65 Comments</a>
+										</div>
+										<a class="news-card__title-link" href="#">
+											<h3 class="news-card__title">Curabitur porttitor orci eget neque
+												accumsan venenatis. Nunc fermentum.</h3>
+										</a>
+										<a href="#" class="news-card__read-more">Read More</a>
+									</div>
+								</div>
+
+								<div class="news-card">
+									<a href="#" class="news-card__image-link">
+										<img class="news-card__image" src="img/fotos/eggs.webp"
+											alt="Тарілка з яйцем та шпинатом, красиво оформлена страва">
+										<div class="news-card__date">
+											<div class="news-card__date-day">29</div>
+											<div class="news-card__date-month">Jan</div>
+										</div>
+									</a>
+									<div class="news-card__content">
+										<div class="news-card__meta">
+											<a class="news-card__meta-link news-card__meta-link--category"
+												href="#">Food</a>
+											<a class="news-card__meta-link news-card__meta-link--author"
+												href="#">By Admin</a>
+											<a class="news-card__meta-link news-card__meta-link--comments"
+												href="#">65 Comments</a>
+										</div>
+										<a class="news-card__title-link" href="#">
+											<h3 class="news-card__title">Eget lobortis lorem lacinia. Vivamus
+												pharetra semper.</h3>
+										</a>
+										<a href="#" class="news-card__read-more">Read More</a>
+									</div>
+								</div>
+
+								<div class="news-card">
+									<a href="#" class="news-card__image-link">
+										<img class="news-card__image" src="img/fotos/salad.webp"
+											alt="Миска з різноманітними овочами та фруктами на дерев'яному столі">
+										<div class="news-card__date">
+											<div class="news-card__date-day">21</div>
+											<div class="news-card__date-month">Feb</div>
+										</div>
+									</a>
+									<div class="news-card__content">
+										<div class="news-card__meta">
+											<a class="news-card__meta-link news-card__meta-link--category"
+												href="#">Food</a>
+											<a class="news-card__meta-link news-card__meta-link--author"
+												href="#">By Admin</a>
+											<a class="news-card__meta-link news-card__meta-link--comments"
+												href="#">65 Comments</a>
+										</div>
+										<a class="news-card__title-link" href="#">
+											<h3 class="news-card__title">Maecenas blandit risus elementum mauris
+												malesuada.</h3>
+										</a>
+										<a href="#" class="news-card__read-more">Read More</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</main>
+			<footer class="footer">
+				<div class="footer__container">
+					<a class="up" href="#">Footer - Adaptive Interface</a>
+				</div>
+			</footer>
+		</div>
+	</body>
+</html>
