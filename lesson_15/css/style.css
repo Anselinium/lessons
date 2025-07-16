@@ -153,6 +153,8 @@
 	max-width: 1320px;
 	overflow-x: auto;
 	/* flex-wrap: wrap; */
+
+	margin-inline: auto;
 }
 
 .product-block {
@@ -163,7 +165,13 @@
 	width: 100%;
 	transition: all 0.3s;
 	position: relative;
+
+	margin: 0 -1px 0px 0;
+	min-width: 0;
+	flex-basis: calc(20% + 1px);
+
 }
+
 
 @media (any-hover: hover) {
 .product-block:hover {
@@ -180,10 +188,12 @@
 }
 }
 
-.product-block__img {
+.imagers-product {
 	padding: 5px;
 	aspect-ratio: 254 / 230;
-	object-fit: contain;
+	object-fit: cover;
+	width: 100%;
+	height: 100%;
 }
 
 .product-block__link-title {
@@ -278,10 +288,6 @@
 	gap: 4px;
 	border-radius: 4px;
 	background: #EA4B48;
-	position: absolute;
-	top: 16px;
-	left: 16px;
-	max-width: 80px;
 }
 
 .sale-label__title {
@@ -298,16 +304,23 @@
 	line-height: 1.5;
 }
 
+.product-block__labels {
+	display: flex;
+	flex-direction: column;
+	row-gap: 6px;
+	position: absolute;
+	top: 16px;
+	left: 16px;
+	pointer-events: none;
+	max-width: 80px;
+}
+
 .best-price-label {
 	padding: 3px 8px;
 	justify-content: center;
 	align-items: center;
 	border-radius: 4px;
 	background: #6c69f3;
-	position: absolute;
-	top: 47px;
-	left: 16px;
-	max-width: 100px;
 }
 
 .best-price-label__title {
@@ -328,6 +341,9 @@
 }
 
 .product-block__icons button {
+	display: flex;
+	align-items: center;
+	justify-content: center;
 	width: 40px;
 	height: 40px;
 	flex-shrink: 0;
@@ -339,6 +355,12 @@
 	transition: color 0.3s, background-color 0.3s;
 	color: #1A1A1A;
 }
+
+.product-block__icons svg {
+	width: 20px;
+	height: 20px;
+}
+
 
 @media (any-hover: hover) {
 .product-block:hover .product-block__icons {
@@ -376,7 +398,8 @@
 	box-shadow: 0px 20px 50px 0px rgba(0, 0, 0, 0.08);
 
 	flex: 1 1 300px;
-	min-width: 350px;
+	min-width: 300px;
+	position: relative;
 }
 
 .latest-news__title {
@@ -391,6 +414,7 @@
 
 .news-card__image-link {
 	position: relative;
+	aspect-ratio: 424 / 324;
 	overflow: hidden;
 }
 
@@ -403,15 +427,15 @@
 .news-card__image {
 	width: 100%;
 	aspect-ratio: 424 / 324;
-	object-fit: contain;
+	object-fit: cover;
 	transition: transform 0.5s ease-in-out;
+	border-radius: 8px 8px 0px 0px;
 }
 
 .news-card__content {
 	display: flex;
 	padding: 24px;
 	flex-direction: column;
-	/* align-items: flex-start; */
 	flex-shrink: 1;
 	flex-grow: 1;
 	justify-content: space-between;
