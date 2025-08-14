@@ -26,6 +26,9 @@ body {
 
 .header {
 	background-color: #f8dfcd;
+	position: sticky;
+	top: 0;
+	left: 0;
 }
 
 .wrapper > main {
@@ -121,7 +124,7 @@ body {
 }
 
 .menu__link:hover {
-	opacity: 0.4;
+	/* opacity: 0.8; */
 	color: #F26522;
 }
 
@@ -167,7 +170,7 @@ body {
 }
 @media (any-hover:hover) {
 	.menu__item:hover .menu__link {
-		color: #FFF;
+		color: #F26522;
 	}
 }
 
@@ -269,7 +272,7 @@ body {
 		top: 0;
 		z-index: 3;
 		color: #151515;
-		background-color: #f8dfcdac;
+		background-color: #f8dfcd;
 		align-items: center;
 		overflow: auto;
 		right: -100%;
@@ -323,3 +326,4 @@ body {
 		background-repeat: no-repeat;
 	}
 }
+
